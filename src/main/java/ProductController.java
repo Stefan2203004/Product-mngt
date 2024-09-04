@@ -52,6 +52,8 @@ public class ProductController {
         }else{
             return "Product not found";
         }
+
+        // {"message": "Product with {id}id deleted"}
     }
 
     // PUT method to modify the product
