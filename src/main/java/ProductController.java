@@ -34,7 +34,7 @@ public class ProductController {
     // POST method to read the product
     @GetMapping("/get")
     public String getProducts(@RequestParam Long id){
-        System.out.println(products.get(id));
+        // System.out.println(products.get(id));
         
         Product prod = products.get(id);
 
